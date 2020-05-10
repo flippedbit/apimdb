@@ -10,7 +10,6 @@ import (
 )
 
 const imdbUserURL = "https://www.imdb.com/name/"
-const imdbSearchURL = "https://www.imdb.com/find?s="
 
 type IMDBUser struct {
 	name     string

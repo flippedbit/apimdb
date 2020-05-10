@@ -5,6 +5,8 @@ import (
 	"strings"
 )
 
+const imdbSearchURL = "https://www.imdb.com/find?s="
+
 func Find(slice []string, val string) (int, bool) {
 	for i, item := range slice {
 		if item == val {

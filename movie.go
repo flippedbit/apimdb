@@ -10,7 +10,6 @@ import (
 	"golang.org/x/net/html"
 )
 
-const imdbSearchURL = "https://www.imdb.com/find?s="
 const imdbMovieURL = "https://www.imdb.com/title/"
 
 type IMDBMovie struct {
